@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1075E663A45F933407B32086 /* Pods_FoodCostManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E6A439BF13DBC6978ECDEB5 /* Pods_FoodCostManagerTests.framework */; };
 		660221F42A3375DD008F38EA /* FoodCostManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660221F32A3375DD008F38EA /* FoodCostManagerApp.swift */; };
 		660221F62A3375DD008F38EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660221F52A3375DD008F38EA /* ContentView.swift */; };
 		660221F82A3375DF008F38EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660221F72A3375DF008F38EA /* Assets.xcassets */; };
@@ -14,6 +15,26 @@
 		660222052A3375DF008F38EA /* FoodCostManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660222042A3375DF008F38EA /* FoodCostManagerTests.swift */; };
 		6602220F2A3375DF008F38EA /* FoodCostManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6602220E2A3375DF008F38EA /* FoodCostManagerUITests.swift */; };
 		660222112A3375DF008F38EA /* FoodCostManagerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660222102A3375DF008F38EA /* FoodCostManagerUITestsLaunchTests.swift */; };
+		665141182A36242C00579DC1 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665141172A36242C00579DC1 /* WidgetKit.framework */; };
+		6651411A2A36242C00579DC1 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 665141192A36242C00579DC1 /* SwiftUI.framework */; };
+		6651411D2A36242C00579DC1 /* CostWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651411C2A36242C00579DC1 /* CostWidgetBundle.swift */; };
+		6651411F2A36242C00579DC1 /* CostWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6651411E2A36242C00579DC1 /* CostWidgetLiveActivity.swift */; };
+		665141212A36242C00579DC1 /* CostWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665141202A36242C00579DC1 /* CostWidget.swift */; };
+		665141242A36242E00579DC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665141232A36242E00579DC1 /* Assets.xcassets */; };
+		665141262A36242E00579DC1 /* CostWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 665141222A36242D00579DC1 /* CostWidget.intentdefinition */; };
+		665141272A36242E00579DC1 /* CostWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 665141222A36242D00579DC1 /* CostWidget.intentdefinition */; };
+		6651412A2A36242E00579DC1 /* CostWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 665141162A36242C00579DC1 /* CostWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		665141312A362A9900579DC1 /* FoodTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F39A1E2A34E3BD007C235B /* FoodTable.swift */; };
+		665141332A36343400579DC1 /* CostWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665141202A36242C00579DC1 /* CostWidget.swift */; };
+		669452252A387625003AFFD6 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669452242A387625003AFFD6 /* ChartView.swift */; };
+		669DD93A2A344C6700C2CEE4 /* Neumorphic in Frameworks */ = {isa = PBXBuildFile; productRef = 669DD9392A344C6700C2CEE4 /* Neumorphic */; };
+		669DD93C2A3457D700C2CEE4 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669DD93B2A3457D700C2CEE4 /* TabBarView.swift */; };
+		66D0E0972A35A08B001F6A08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660221F52A3375DD008F38EA /* ContentView.swift */; };
+		66F39A1D2A34CDEC007C235B /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F39A1C2A34CDEC007C235B /* HistoryView.swift */; };
+		66F39A1F2A34E3BD007C235B /* FoodTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F39A1E2A34E3BD007C235B /* FoodTable.swift */; };
+		6ECF6ABCBCB60B8307774EA3 /* Pods_FoodCostManager_CostWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C1020C01CC4D864FA7006F /* Pods_FoodCostManager_CostWidgetExtension.framework */; };
+		B9BED9448AE04E569C42DDF2 /* Pods_FoodCostManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39168B5F7D560E2B798AD652 /* Pods_FoodCostManager.framework */; };
+		CC1F316D57612985032510F4 /* Pods_FoodCostManager_FoodCostManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B3F1F176835A1B1B04EF580 /* Pods_FoodCostManager_FoodCostManagerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +52,33 @@
 			remoteGlobalIDString = 660221EF2A3375DD008F38EA;
 			remoteInfo = FoodCostManager;
 		};
+		665141282A36242E00579DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 660221E82A3375DD008F38EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 665141152A36242C00579DC1;
+			remoteInfo = CostWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6651412E2A36242E00579DC1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6651412A2A36242E00579DC1 /* CostWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		341FA86506BF01F2B2460C9F /* Pods-FoodCostManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManager.release.xcconfig"; path = "Target Support Files/Pods-FoodCostManager/Pods-FoodCostManager.release.xcconfig"; sourceTree = "<group>"; };
+		39168B5F7D560E2B798AD652 /* Pods_FoodCostManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodCostManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C58BD1567BC1BE6F597D95F /* Pods-FoodCostManager-FoodCostManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManager-FoodCostManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-FoodCostManager-FoodCostManagerUITests/Pods-FoodCostManager-FoodCostManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		660221F02A3375DD008F38EA /* FoodCostManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodCostManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		660221F32A3375DD008F38EA /* FoodCostManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCostManagerApp.swift; sourceTree = "<group>"; };
 		660221F52A3375DD008F38EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +89,30 @@
 		6602220A2A3375DF008F38EA /* FoodCostManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodCostManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6602220E2A3375DF008F38EA /* FoodCostManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCostManagerUITests.swift; sourceTree = "<group>"; };
 		660222102A3375DF008F38EA /* FoodCostManagerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodCostManagerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		665141162A36242C00579DC1 /* CostWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CostWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		665141172A36242C00579DC1 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		665141192A36242C00579DC1 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6651411C2A36242C00579DC1 /* CostWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostWidgetBundle.swift; sourceTree = "<group>"; };
+		6651411E2A36242C00579DC1 /* CostWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		665141202A36242C00579DC1 /* CostWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostWidget.swift; sourceTree = "<group>"; };
+		665141222A36242D00579DC1 /* CostWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = CostWidget.intentdefinition; sourceTree = "<group>"; };
+		665141232A36242E00579DC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		665141252A36242E00579DC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6651412F2A3628EB00579DC1 /* FoodCostManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodCostManager.entitlements; sourceTree = "<group>"; };
+		665141302A36295600579DC1 /* CostWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CostWidgetExtension.entitlements; sourceTree = "<group>"; };
+		669452242A387625003AFFD6 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		669DD93B2A3457D700C2CEE4 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		66F39A1C2A34CDEC007C235B /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		66F39A1E2A34E3BD007C235B /* FoodTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTable.swift; sourceTree = "<group>"; };
+		6B3F1F176835A1B1B04EF580 /* Pods_FoodCostManager_FoodCostManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodCostManager_FoodCostManagerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87CCF4A145CA6D3F62FCB63C /* Pods-FoodCostManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManagerTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodCostManagerTests/Pods-FoodCostManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		899ADD06B0CE5E48DAA409DD /* Pods-FoodCostManager-CostWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManager-CostWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-FoodCostManager-CostWidgetExtension/Pods-FoodCostManager-CostWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		9E6A439BF13DBC6978ECDEB5 /* Pods_FoodCostManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodCostManagerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FF12EF743A1F0350D9CC06B /* Pods-FoodCostManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManagerTests.release.xcconfig"; path = "Target Support Files/Pods-FoodCostManagerTests/Pods-FoodCostManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACAB2C25F44C263CFD946E8A /* Pods-FoodCostManager-CostWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManager-CostWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-FoodCostManager-CostWidgetExtension/Pods-FoodCostManager-CostWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B33F188B4C79D86BDC3C034B /* Pods-FoodCostManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManager.debug.xcconfig"; path = "Target Support Files/Pods-FoodCostManager/Pods-FoodCostManager.debug.xcconfig"; sourceTree = "<group>"; };
+		C08029CFF0058B58F0FCE6C4 /* Pods-FoodCostManager-FoodCostManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodCostManager-FoodCostManagerUITests.debug.xcconfig"; path = "Target Support Files/Pods-FoodCostManager-FoodCostManagerUITests/Pods-FoodCostManager-FoodCostManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0C1020C01CC4D864FA7006F /* Pods_FoodCostManager_CostWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodCostManager_CostWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				669DD93A2A344C6700C2CEE4 /* Neumorphic in Frameworks */,
+				B9BED9448AE04E569C42DDF2 /* Pods_FoodCostManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1075E663A45F933407B32086 /* Pods_FoodCostManagerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,19 +137,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1F316D57612985032510F4 /* Pods_FoodCostManager_FoodCostManagerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665141132A36242C00579DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6651411A2A36242C00579DC1 /* SwiftUI.framework in Frameworks */,
+				665141182A36242C00579DC1 /* WidgetKit.framework in Frameworks */,
+				6ECF6ABCBCB60B8307774EA3 /* Pods_FoodCostManager_CostWidgetExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B25873D82EC0B12A17E14B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B33F188B4C79D86BDC3C034B /* Pods-FoodCostManager.debug.xcconfig */,
+				341FA86506BF01F2B2460C9F /* Pods-FoodCostManager.release.xcconfig */,
+				C08029CFF0058B58F0FCE6C4 /* Pods-FoodCostManager-FoodCostManagerUITests.debug.xcconfig */,
+				4C58BD1567BC1BE6F597D95F /* Pods-FoodCostManager-FoodCostManagerUITests.release.xcconfig */,
+				87CCF4A145CA6D3F62FCB63C /* Pods-FoodCostManagerTests.debug.xcconfig */,
+				9FF12EF743A1F0350D9CC06B /* Pods-FoodCostManagerTests.release.xcconfig */,
+				ACAB2C25F44C263CFD946E8A /* Pods-FoodCostManager-CostWidgetExtension.debug.xcconfig */,
+				899ADD06B0CE5E48DAA409DD /* Pods-FoodCostManager-CostWidgetExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		660221E72A3375DD008F38EA = {
 			isa = PBXGroup;
 			children = (
+				665141302A36295600579DC1 /* CostWidgetExtension.entitlements */,
 				660221F22A3375DD008F38EA /* FoodCostManager */,
 				660222032A3375DF008F38EA /* FoodCostManagerTests */,
 				6602220D2A3375DF008F38EA /* FoodCostManagerUITests */,
+				6651411B2A36242C00579DC1 /* CostWidget */,
 				660221F12A3375DD008F38EA /* Products */,
+				5B25873D82EC0B12A17E14B5 /* Pods */,
+				695BD3BCBB4566852C2530AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +189,7 @@
 				660221F02A3375DD008F38EA /* FoodCostManager.app */,
 				660222002A3375DF008F38EA /* FoodCostManagerTests.xctest */,
 				6602220A2A3375DF008F38EA /* FoodCostManagerUITests.xctest */,
+				665141162A36242C00579DC1 /* CostWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,10 +197,15 @@
 		660221F22A3375DD008F38EA /* FoodCostManager */ = {
 			isa = PBXGroup;
 			children = (
+				6651412F2A3628EB00579DC1 /* FoodCostManager.entitlements */,
 				660221F32A3375DD008F38EA /* FoodCostManagerApp.swift */,
 				660221F52A3375DD008F38EA /* ContentView.swift */,
+				66F39A1C2A34CDEC007C235B /* HistoryView.swift */,
+				669452242A387625003AFFD6 /* ChartView.swift */,
+				669DD93B2A3457D700C2CEE4 /* TabBarView.swift */,
 				660221F72A3375DF008F38EA /* Assets.xcassets */,
 				660221F92A3375DF008F38EA /* Preview Content */,
+				66F39A1E2A34E3BD007C235B /* FoodTable.swift */,
 			);
 			path = FoodCostManager;
 			sourceTree = "<group>";
@@ -127,6 +235,32 @@
 			path = FoodCostManagerUITests;
 			sourceTree = "<group>";
 		};
+		6651411B2A36242C00579DC1 /* CostWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6651411C2A36242C00579DC1 /* CostWidgetBundle.swift */,
+				6651411E2A36242C00579DC1 /* CostWidgetLiveActivity.swift */,
+				665141202A36242C00579DC1 /* CostWidget.swift */,
+				665141222A36242D00579DC1 /* CostWidget.intentdefinition */,
+				665141232A36242E00579DC1 /* Assets.xcassets */,
+				665141252A36242E00579DC1 /* Info.plist */,
+			);
+			path = CostWidget;
+			sourceTree = "<group>";
+		};
+		695BD3BCBB4566852C2530AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39168B5F7D560E2B798AD652 /* Pods_FoodCostManager.framework */,
+				6B3F1F176835A1B1B04EF580 /* Pods_FoodCostManager_FoodCostManagerUITests.framework */,
+				9E6A439BF13DBC6978ECDEB5 /* Pods_FoodCostManagerTests.framework */,
+				665141172A36242C00579DC1 /* WidgetKit.framework */,
+				665141192A36242C00579DC1 /* SwiftUI.framework */,
+				F0C1020C01CC4D864FA7006F /* Pods_FoodCostManager_CostWidgetExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +268,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 660222142A3375DF008F38EA /* Build configuration list for PBXNativeTarget "FoodCostManager" */;
 			buildPhases = (
+				99F3A5D4C20AB67EAD954DC6 /* [CP] Check Pods Manifest.lock */,
 				660221EC2A3375DD008F38EA /* Sources */,
 				660221ED2A3375DD008F38EA /* Frameworks */,
 				660221EE2A3375DD008F38EA /* Resources */,
+				0F15C2D9E0D43BFCA500DD55 /* [CP] Embed Pods Frameworks */,
+				6651412E2A36242E00579DC1 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				665141292A36242E00579DC1 /* PBXTargetDependency */,
 			);
 			name = FoodCostManager;
+			packageProductDependencies = (
+				669DD9392A344C6700C2CEE4 /* Neumorphic */,
+			);
 			productName = FoodCostManager;
 			productReference = 660221F02A3375DD008F38EA /* FoodCostManager.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 660222172A3375DF008F38EA /* Build configuration list for PBXNativeTarget "FoodCostManagerTests" */;
 			buildPhases = (
+				B5F6B90593C54802DFD76126 /* [CP] Check Pods Manifest.lock */,
 				660221FC2A3375DF008F38EA /* Sources */,
 				660221FD2A3375DF008F38EA /* Frameworks */,
 				660221FE2A3375DF008F38EA /* Resources */,
@@ -169,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6602221A2A3375DF008F38EA /* Build configuration list for PBXNativeTarget "FoodCostManagerUITests" */;
 			buildPhases = (
+				57AA52310BFD0C944DEC12F8 /* [CP] Check Pods Manifest.lock */,
 				660222062A3375DF008F38EA /* Sources */,
 				660222072A3375DF008F38EA /* Frameworks */,
 				660222082A3375DF008F38EA /* Resources */,
+				A654671508A6A1BBC64B5507 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,6 +326,24 @@
 			productName = FoodCostManagerUITests;
 			productReference = 6602220A2A3375DF008F38EA /* FoodCostManagerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		665141152A36242C00579DC1 /* CostWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6651412B2A36242E00579DC1 /* Build configuration list for PBXNativeTarget "CostWidgetExtension" */;
+			buildPhases = (
+				11426296AD005501A34F1E7E /* [CP] Check Pods Manifest.lock */,
+				665141122A36242C00579DC1 /* Sources */,
+				665141132A36242C00579DC1 /* Frameworks */,
+				665141142A36242C00579DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CostWidgetExtension;
+			productName = CostWidgetExtension;
+			productReference = 665141162A36242C00579DC1 /* CostWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -204,6 +366,9 @@
 						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = 660221EF2A3375DD008F38EA;
 					};
+					665141152A36242C00579DC1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 660221EB2A3375DD008F38EA /* Build configuration list for PBXProject "FoodCostManager" */;
@@ -215,6 +380,9 @@
 				Base,
 			);
 			mainGroup = 660221E72A3375DD008F38EA;
+			packageReferences = (
+				669DD9382A344C6700C2CEE4 /* XCRemoteSwiftPackageReference "neumorphic" */,
+			);
 			productRefGroup = 660221F12A3375DD008F38EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -222,6 +390,7 @@
 				660221EF2A3375DD008F38EA /* FoodCostManager */,
 				660221FF2A3375DF008F38EA /* FoodCostManagerTests */,
 				660222092A3375DF008F38EA /* FoodCostManagerUITests */,
+				665141152A36242C00579DC1 /* CostWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +419,140 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		665141142A36242C00579DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665141242A36242E00579DC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F15C2D9E0D43BFCA500DD55 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodCostManager/Pods-FoodCostManager-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodCostManager/Pods-FoodCostManager-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodCostManager/Pods-FoodCostManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11426296AD005501A34F1E7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodCostManager-CostWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57AA52310BFD0C944DEC12F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodCostManager-FoodCostManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99F3A5D4C20AB67EAD954DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodCostManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A654671508A6A1BBC64B5507 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodCostManager-FoodCostManagerUITests/Pods-FoodCostManager-FoodCostManagerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodCostManager-FoodCostManagerUITests/Pods-FoodCostManager-FoodCostManagerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodCostManager-FoodCostManagerUITests/Pods-FoodCostManager-FoodCostManagerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F6B90593C54802DFD76126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodCostManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		660221EC2A3375DD008F38EA /* Sources */ = {
@@ -258,7 +560,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				660221F62A3375DD008F38EA /* ContentView.swift in Sources */,
+				665141272A36242E00579DC1 /* CostWidget.intentdefinition in Sources */,
+				66F39A1F2A34E3BD007C235B /* FoodTable.swift in Sources */,
+				66F39A1D2A34CDEC007C235B /* HistoryView.swift in Sources */,
+				665141332A36343400579DC1 /* CostWidget.swift in Sources */,
+				669DD93C2A3457D700C2CEE4 /* TabBarView.swift in Sources */,
 				660221F42A3375DD008F38EA /* FoodCostManagerApp.swift in Sources */,
+				669452252A387625003AFFD6 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +574,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66D0E0972A35A08B001F6A08 /* ContentView.swift in Sources */,
 				660222052A3375DF008F38EA /* FoodCostManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +585,18 @@
 			files = (
 				6602220F2A3375DF008F38EA /* FoodCostManagerUITests.swift in Sources */,
 				660222112A3375DF008F38EA /* FoodCostManagerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		665141122A36242C00579DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				665141212A36242C00579DC1 /* CostWidget.swift in Sources */,
+				665141312A362A9900579DC1 /* FoodTable.swift in Sources */,
+				665141262A36242E00579DC1 /* CostWidget.intentdefinition in Sources */,
+				6651411D2A36242C00579DC1 /* CostWidgetBundle.swift in Sources */,
+				6651411F2A36242C00579DC1 /* CostWidgetLiveActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +612,11 @@
 			isa = PBXTargetDependency;
 			target = 660221EF2A3375DD008F38EA /* FoodCostManager */;
 			targetProxy = 6602220B2A3375DF008F38EA /* PBXContainerItemProxy */;
+		};
+		665141292A36242E00579DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 665141152A36242C00579DC1 /* CostWidgetExtension */;
+			targetProxy = 665141282A36242E00579DC1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -411,9 +737,12 @@
 		};
 		660222152A3375DF008F38EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33F188B4C79D86BDC3C034B /* Pods-FoodCostManager.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodCostManager/FoodCostManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodCostManager/Preview Content\"";
@@ -425,6 +754,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,9 +770,12 @@
 		};
 		660222162A3375DF008F38EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341FA86506BF01F2B2460C9F /* Pods-FoodCostManager.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FoodCostManager/FoodCostManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FoodCostManager/Preview Content\"";
@@ -454,6 +787,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -469,6 +803,7 @@
 		};
 		660222182A3375DF008F38EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87CCF4A145CA6D3F62FCB63C /* Pods-FoodCostManagerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +824,7 @@
 		};
 		660222192A3375DF008F38EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FF12EF743A1F0350D9CC06B /* Pods-FoodCostManagerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +845,7 @@
 		};
 		6602221B2A3375DF008F38EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08029CFF0058B58F0FCE6C4 /* Pods-FoodCostManager-FoodCostManagerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +864,7 @@
 		};
 		6602221C2A3375DF008F38EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C58BD1567BC1BE6F597D95F /* Pods-FoodCostManager-FoodCostManagerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -540,6 +878,64 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = FoodCostManager;
+			};
+			name = Release;
+		};
+		6651412C2A36242E00579DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAB2C25F44C263CFD946E8A /* Pods-FoodCostManager-CostWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = CostWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YXGL3JZP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CostWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CostWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almikan.FoodCostManager.CostWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6651412D2A36242E00579DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 899ADD06B0CE5E48DAA409DD /* Pods-FoodCostManager-CostWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = CostWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YXGL3JZP2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CostWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CostWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.almikan.FoodCostManager.CostWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -582,7 +978,35 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6651412B2A36242E00579DC1 /* Build configuration list for PBXNativeTarget "CostWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6651412C2A36242E00579DC1 /* Debug */,
+				6651412D2A36242E00579DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		669DD9382A344C6700C2CEE4 /* XCRemoteSwiftPackageReference "neumorphic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/costachung/neumorphic/";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		669DD9392A344C6700C2CEE4 /* Neumorphic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 669DD9382A344C6700C2CEE4 /* XCRemoteSwiftPackageReference "neumorphic" */;
+			productName = Neumorphic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 660221E82A3375DD008F38EA /* Project object */;
 }
