@@ -178,20 +178,21 @@ private extension View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        Group {
-            ContentView()
-                .environment(\.sizeCategory, .medium)
-                .previewInterfaceOrientation(.portrait)
-                .previewLayout(.sizeThatFits)
-                .previewDevice("iPhone 14")
-                .previewDisplayName("iPhone14")
-            ContentView()
-                .previewLayout(.sizeThatFits)
-                .previewDevice("iPhone SE (3rd generation)")
-                .previewDisplayName("iPhoneSE")
-        }
-        
-    }
+#Preview{
+    ContentView()
+}
+
+class FoodTable: Object {
+    @Persisted  var id:String
+    @Persisted  var category = ""
+    @Persisted  var year:Int
+    @Persisted  var month:Int
+    @Persisted  var day:Int
+    @Persisted  var price:Int = 0
+}
+
+class MonthlyGoal: Object {
+    @Persisted var year: Int = 0
+    @Persisted var month: Int = 0
+    @Persisted  var goal:Int
 }

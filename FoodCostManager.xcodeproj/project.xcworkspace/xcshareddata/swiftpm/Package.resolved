@@ -1,0 +1,33 @@
+{
+  "originHash" : "6b84383033cb2407c035d5a6b92390298fe40b7134d763ec5a126f213784b8ce",
+  "pins" : [
+    {
+      "identity" : "neumorphic",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/costachung/neumorphic/",
+      "state" : {
+        "branch" : "master",
+        "revision" : "03c6f7b3d27bfb28a082db2e9ffae45fbc69cb8b"
+      }
+    },
+    {
+      "identity" : "realm-core",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-core.git",
+      "state" : {
+        "revision" : "f3d7ae5f9f31d90b327a64536bb7801cc69fd85b",
+        "version" : "14.9.0"
+      }
+    },
+    {
+      "identity" : "realm-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/realm/realm-swift.git",
+      "state" : {
+        "revision" : "4c4413abd0cd2221f59318f800960fe5bddc1494",
+        "version" : "10.51.0"
+      }
+    }
+  ],
+  "version" : 3
+}
